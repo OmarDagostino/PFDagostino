@@ -2,7 +2,7 @@
 *  MODULOS COMPARTIDOS POR VARIAS PAGINAS DEL SITIO             *
 ***************************************************************** */
 .background_principal {
-  background-image: url(imagen_del_background.png) !important;
+  background-image: url(imagen_del_background.webp) !important;
   background-size: 120%;
   background-repeat: 2;
   background-position: center center;
@@ -37,28 +37,34 @@ ul li a {
   background-color: #2980B9; }
 
 h1 {
+  font-weight: initial;
+  font-style: initial;
   font-family: "Rye", cursive; }
 
 h2 {
+  font-weight: initial;
+  font-style: initial;
+  font-family: "Rye", cursive; }
+
+h4 {
+  font-weight: initial;
+  font-style: initial;
   font-family: "Rye", cursive; }
 
 h3 {
-  font-family: "Merriweather", serif;
   font-weight: bolder !important;
-  font-style: italic !important; }
-
-h4 {
-  font-family: "Rye", cursive; }
+  font-style: italic !important;
+  font-family: "Merriweather", serif; }
 
 h5 {
-  font-family: "Merriweather", serif;
   font-weight: bolder !important;
-  font-style: italic !important; }
+  font-style: italic !important;
+  font-family: "Merriweather", serif; }
 
 h6 {
-  font-family: "Merriweather";
   font-weight: bold !important;
-  font-style: normal !important; }
+  font-style: normal !important;
+  font-family: "Merriweather"; }
 
 a {
   text-decoration: none; }
@@ -69,18 +75,20 @@ a {
 .texto-chico {
   font-size: 68% !important;
   font-weight: bolder !important;
-  font-style: normal !important; }
+  font-style: normal !important;
+  font-family: initial; }
 
 .texto-mediano {
   font-size: 90% !important;
   font-weight: bold !important;
-  font-style: normal !important; }
+  font-style: normal !important;
+  font-family: initial; }
 
 .texto-boton {
   font-size: 75% !important;
   font-weight: bolder !important;
   font-style: normal !important;
-  font-family: 'Gloock', serif; }
+  font-family: "Gloock"; }
 
 #titulo-principal {
   margin-top: 42px !important;
@@ -2008,7 +2016,7 @@ p {
     background-size: 100%; } }
 
 .background_de_inicio {
-  background-image: url(imagen_del_background.png) !important;
+  background-image: url(imagen_del_background.webp) !important;
   background-size: 120%;
   background-repeat: 2;
   background-position: center center;
