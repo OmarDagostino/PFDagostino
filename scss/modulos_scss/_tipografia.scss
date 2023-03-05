@@ -26,7 +26,8 @@ h5
 }
 h6
 {
-  @include fonts(bold !important,normal !important, $font-parrafos);
+  @include fonts(bolder !important,italic !important, $font-parrafos);
+  font-size: 120%;
 }
 a
 {

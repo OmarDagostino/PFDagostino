@@ -62,9 +62,10 @@ h5 {
   font-family: "Merriweather", serif; }
 
 h6 {
-  font-weight: bold !important;
-  font-style: normal !important;
-  font-family: "Merriweather"; }
+  font-weight: bolder !important;
+  font-style: italic !important;
+  font-family: "Merriweather";
+  font-size: 120%; }
 
 a {
   text-decoration: none; }
